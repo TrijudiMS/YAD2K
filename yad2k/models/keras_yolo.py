@@ -5,7 +5,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras import backend as K
 from tensorflow.keras.layers import Lambda
-from tensorflow.keras.layers.merge import concatenate
+from tensorflow.keras.layers import concatenate
 from tensorflow.keras.models import Model
 
 from ..utils import compose
